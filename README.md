@@ -14,3 +14,10 @@ You can install the required libraries using the following command:
 
 ```bash
 pip install paramiko pwntools
+```
+
+Example Command:
+
+```bash
+python ssh_bruteforce.py -i 192.168.1.100 -u root -w /path/to/password_list.txt
+```
